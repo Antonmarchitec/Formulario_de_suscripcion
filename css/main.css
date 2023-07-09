@@ -114,6 +114,8 @@
   position: fixed;
   border-radius: 20px;
   padding: 50px 40px;
+  opacity: 0;
+  visibility: hidden;
   /*
           poppup__image
   poppup__title
