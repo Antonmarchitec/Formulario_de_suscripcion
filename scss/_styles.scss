@@ -1,0 +1,158 @@
+@import "variables";
+
+.container__main{
+    width: 100%;
+    max-width: 1440px;
+    height: 100vh;
+    background: $Charcoal_Grey;
+    padding: 10px 0px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container__base{
+        width: 900px;
+        padding: 20px;
+        background: $White;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        .base__section{
+            width:460px;
+            padding: 30px;
+                .section__title{
+                font-size: 54px;
+                font-weight: 700;
+                color: $Dark_Slate_Grey;
+            }
+            .section__description{
+                margin-top: 15px;
+                font-size: 16px;
+                color: $Charcoal_Grey;
+            }
+            .section__block{
+                margin-top: 15px;
+                width: 100%;
+                padding: 5px 0px;
+                .block{
+                    width: 100%;
+                    padding: 5px 0px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+                    .section__block__icon{
+                        width: 20px;
+                        height: 20px;
+                    }
+                    .section__block__text{
+                        color:$Charcoal_Grey;
+                        margin-left: 10px;
+                    }
+                }
+                
+            }
+
+            .container__form{
+                margin-top: 10px;
+                width: 100%;
+                padding: 10px 0px;
+                .form__label{
+                    color:$Charcoal_Grey;
+                    font-size: 14px;
+                }
+                .form__input{
+                    margin-top: 5px;
+                    width: 100%;
+                    padding: 10px;
+                    border: 2px solid rgb(193, 193, 193);
+                    border-radius: 5px;
+                    color: $Charcoal_Grey;
+                    outline-color: rgb(34, 34, 34);
+                    transition: 0.2s all;
+                }
+
+                .form__input:hover{
+                    cursor: pointer;
+                }
+                .form__buttom{
+                    margin-top: 10px;
+                    width: 100%;
+                    background: $Dark_Slate_Grey;
+                    color: $White;
+                    padding: 10px;
+                    border-radius: 8px;
+                    border: none;
+                    cursor: pointer;
+                    transition: 0.2s all;
+                }
+                .form__buttom:hover{
+                    background: $Tomato;
+                    box-shadow: 0px 5px 10px $Tomato;
+                }
+            }
+        }
+
+        .base__figure{
+            width: 40%;
+            height: 40%;
+            transition: 0.5s all;
+        }
+        .base__figure:hover{
+            transform: translateX(5px);
+        }
+        
+        
+    }
+
+
+    .cont__poppup{
+        width: 370px;
+        background: rgb(255, 255, 255);
+        position: fixed;
+        border-radius: 20px;
+        padding: 50px 40px;
+        .poppup__image{
+            width: 50px;
+            height: 50px;
+        }
+        .poppup__title{
+            margin-top: 20px;
+            color: $Dark_Slate_Grey;
+            font-weight: 700;
+            font-size: 42px;
+            line-height: 42px;
+        }
+        .poppup__text{
+            margin-top: 15px;
+            color: $Grey;
+            font-weight: 700;
+            font-size: 12px;
+        }.poppup__btn{
+            margin-top: 20px;
+            width: 100%;
+            border-radius: 5px;
+            padding: 8px;
+            background: $Charcoal_Grey;
+            color: white;
+            transition: 0.2s all;
+            border: none;
+
+        }
+        .poppup__btn:hover{
+            background: $Tomato;
+            cursor: pointer;
+            box-shadow: 0px 5px 10px $Tomato;
+
+            
+        }
+        /*
+        poppup__image
+poppup__title
+poppup__text
+poppup__btn
+        
+        */
+    }
+}

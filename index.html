@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+
+  <!--PERSONALIZADOS-->
+  <link rel="stylesheet" href="./css/main.css">
+
+  <!--FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
+
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+
+<body>
+  <main class="container__main">
+    <div class="container__base">
+
+      <!--LEFT-->
+      <section class="base__section">
+        <h1 class="section__title"> Stay updated!</h1>
+
+        <p class="section__description"> Join 60,000+ product managers receiving monthly updtes on:</p>
+
+        <div class="section__block">
+
+          <!--block-->
+          <div class="block">
+            <figure class="section__block__icon">
+              <img src="./assets/images/icon-list.svg" alt="list" style="width:100%;height:100%;">
+            </figure>
+            <p class="section__block__text">
+              Product discovery and building what matters
+            </p>
+          </div>
+
+          <!--block-->
+          <div class="block">
+            <figure class="section__block__icon">
+              <img src="./assets/images/icon-list.svg" alt="list" style="width:100%;height:100%;">
+            </figure>
+            <p class="section__block__text">
+              Measuring to ensure updates are a success
+            </p>
+          </div>
+
+          <!--block-->
+          <div class="block">
+            <figure class="section__block__icon">
+              <img src="./assets/images/icon-list.svg" alt="list" style="width:100%;height:100%;">
+            </figure>
+            <p class="section__block__text">
+              And much more!
+            </p>
+          </div>
+          
+        </div>
+
+        <!--Form-->
+        <form class="container__form">
+
+          <label for="campo" class="form__label"> Email address </label>
+
+          <input type="text" placeholder="email@company.com" class="form__input" id="campo">
+
+          <button class="form__buttom"> 
+            Subscribe to monthly newsletter
+          </button>
+
+        </form>
+      </section>
+
+      <!--RIGHT-->
+      <figure class="base__figure">
+        <img src="./assets/images/illustration-sign-up-desktop.svg" alt="desk" style="width:100%;height:100%;">
+      </figure>
+    </div>
+
+    <div class="cont__poppup">
+      <figure class="poppup__image">
+        <img src="./assets/images/icon-list.svg" alt="icon__list" style="width: 100%;height:100%;">
+      </figure>
+
+      <h2 class="poppup__title"> Thanks for subscribing! </h2>
+      <p class="poppup__text"> A confirmation email has sent to 
+        ash@loremcompany.com. Please open it and click
+        the button inside to confirm your subscription.
+      </p>
+
+      
+      
+
+      <button class="poppup__btn"> Dismiss message </button>
+    </div>
+  </main>
+
+ 
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
