@@ -116,7 +116,7 @@
   padding: 50px 40px;
   opacity: 0;
   visibility: hidden;
-  transition: 0.09s all ease;
+  transition: 0.09s all ease-in-out;
 }
 .container__main .cont__poppup .poppup__image {
   width: 50px;
@@ -151,6 +151,52 @@
   box-shadow: 0px 5px 10px hsl(4deg, 100%, 67%);
 }
 .container__main .cont__poppup__js {
+  opacity: 1;
+  visibility: visible;
+}
+.container__main .cont__poppup__exit {
+  width: 370px;
+  background: rgb(255, 255, 255);
+  position: fixed;
+  border-radius: 20px;
+  padding: 50px 40px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.09s all ease-in-out;
+}
+.container__main .cont__poppup__exit .poppup__image {
+  width: 50px;
+  height: 50px;
+}
+.container__main .cont__poppup__exit .poppup__title {
+  margin-top: 20px;
+  color: hsl(234deg, 29%, 20%);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 42px;
+}
+.container__main .cont__poppup__exit .poppup__text {
+  margin-top: 15px;
+  color: hsl(231deg, 7%, 60%);
+  font-weight: 700;
+  font-size: 12px;
+}
+.container__main .cont__poppup__exit .poppup__btn {
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 5px;
+  padding: 8px;
+  background: hsl(235deg, 18%, 26%);
+  color: white;
+  transition: 0.2s all;
+  border: none;
+}
+.container__main .cont__poppup__exit .poppup__btn:hover {
+  background: hsl(4deg, 100%, 67%);
+  cursor: pointer;
+  box-shadow: 0px 5px 10px hsl(4deg, 100%, 67%);
+}
+.container__main .cont__poppup__exit__js {
   opacity: 1;
   visibility: visible;
 }
