@@ -116,6 +116,7 @@
         //poppup oculto
         opacity: 0;
         visibility: hidden;
+        transition: 0.09s all ease;
         .poppup__image{
             width: 50px;
             height: 50px;
@@ -150,12 +151,11 @@
 
             
         }
-        /*
-        poppup__image
-poppup__title
-poppup__text
-poppup__btn
         
-        */
+    }
+
+    .cont__poppup__js{
+        opacity: 1;
+        visibility: visible;
     }
 }

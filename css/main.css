@@ -116,13 +116,7 @@
   padding: 50px 40px;
   opacity: 0;
   visibility: hidden;
-  /*
-          poppup__image
-  poppup__title
-  poppup__text
-  poppup__btn
-
-          */
+  transition: 0.09s all ease;
 }
 .container__main .cont__poppup .poppup__image {
   width: 50px;
@@ -155,6 +149,10 @@
   background: hsl(4deg, 100%, 67%);
   cursor: pointer;
   box-shadow: 0px 5px 10px hsl(4deg, 100%, 67%);
+}
+.container__main .cont__poppup__js {
+  opacity: 1;
+  visibility: visible;
 }
 
 /*# sourceMappingURL=main.css.map */
