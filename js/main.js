@@ -1,3 +1,4 @@
+//let form__label_error = document.querySelector("#form__label_error")
 
 //funcion
 const validarCorreo = () =>{
@@ -7,9 +8,12 @@ const validarCorreo = () =>{
     if (patron.test(correo)) {
         //console.log("puedes entrar")
         cont__poppup.classList.add("cont__poppup__js")
+        form__label_error.classList.remove("form__label_error_JS")
+
     } else {
         //console.log("no puedes entrar")
-        cont__poppup__exit.classList.add("cont__poppup__exit__js")
+        //cont__poppup__exit.classList.add("cont__poppup__exit__js")
+        form__label_error.classList.add("form__label_error_JS")
     }
 }
 

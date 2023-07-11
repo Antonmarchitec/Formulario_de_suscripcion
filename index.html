@@ -66,10 +66,14 @@
         <!--Form-->
         <div class="container__form">
 
-          <label for="campo" class="form__label"> Email address </label>
+          <div class="cont__label">
+            <label for="campo" class="form__label"> Email address </label>
+            <label for="campo" class="form__label_error" id="form__label_error"> Valid email required </label>
+          </div>
+          
 
           <input type="text" placeholder="email@company.com" class="form__input" id="campoInput">
-
+          
           <button type="submit" class="form__buttom" id="form__buttom"> 
             Subscribe to monthly newsletter
           </button>
