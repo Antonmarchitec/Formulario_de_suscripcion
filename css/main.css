@@ -117,7 +117,9 @@
 }
 .container__main .container__base .base__figure {
   width: 40%;
-  height: 40%;
+  height: 400px;
+  background-image: url(../assets/images/illustration-sign-up-desktop.svg);
+  background-size: 100% 100%;
   transition: 0.5s all;
 }
 .container__main .container__base .base__figure:hover {
@@ -214,6 +216,222 @@
 .container__main .cont__poppup__exit__js {
   opacity: 1;
   visibility: visible;
+}
+
+/***************************************/
+/*********************/
+/*********************************/
+@media (min-width: 320px) and (max-width: 423px) {
+  .container__main {
+    width: 100%;
+    max-width: initial;
+    height: initial;
+    background: hsl(235deg, 18%, 26%);
+    background: teal;
+    padding: 10px 0px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container__main .container__base {
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 0px;
+    box-shadow: transparent;
+  }
+  .container__main .container__base .base__figure {
+    width: 100%;
+    height: 220px;
+    transition: none;
+    background-image: url(../assets/images/illustration-sign-up-mobile.svg);
+    background-size: 100% 100%;
+  }
+  .container__main .container__base .base__figure:hover {
+    transform: none;
+  }
+  .container__main .container__base .base__section {
+    width: 100%;
+    padding: 30px 20px;
+  }
+  .container__main .container__base .base__section .section__title {
+    font-size: 32px;
+    font-weight: 700;
+    color: hsl(234deg, 29%, 20%);
+  }
+  .container__main .container__base .base__section .section__description {
+    margin-top: 15px;
+    font-size: 14px;
+    color: hsl(235deg, 18%, 26%);
+  }
+  .container__main .container__base .base__section .section__block {
+    margin-top: 15px;
+    width: 100%;
+    padding: 5px 0px;
+  }
+  .container__main .container__base .base__section .section__block .block {
+    width: 100%;
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .container__main .container__base .base__section .section__block .block .section__block__icon {
+    width: 20px;
+    height: 20px;
+  }
+  .container__main .container__base .base__section .section__block .block .section__block__text {
+    color: hsl(235deg, 18%, 26%);
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  .container__main .container__base .base__section .container__form {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px 0px;
+  }
+  .container__main .container__base .base__section .container__form .cont__label {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .container__main .container__base .base__section .container__form .cont__label .form__label {
+    color: hsl(235deg, 18%, 26%);
+    font-size: 14px;
+  }
+  .container__main .container__base .base__section .container__form .cont__label .form__label_error {
+    color: #ffa2a2;
+    font-size: 14px;
+    opacity: 0;
+  }
+  .container__main .container__base .base__section .container__form .cont__label .form__label_error_JS {
+    opacity: 1;
+  }
+  .container__main .container__base .base__section .container__form .form__input {
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgb(193, 193, 193);
+    border-radius: 5px;
+    color: hsl(235deg, 18%, 26%);
+    outline-color: rgb(34, 34, 34);
+    transition: 0.2s all;
+  }
+  .container__main .container__base .base__section .container__form .form__input:hover {
+    cursor: pointer;
+  }
+  .container__main .container__base .base__section .container__form .form__buttom {
+    margin-top: 15px;
+    width: 100%;
+    background: hsl(234deg, 29%, 20%);
+    color: hsl(0deg, 0%, 100%);
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s all;
+  }
+  .container__main .container__base .base__section .container__form .form__buttom:hover {
+    background: hsl(4deg, 100%, 67%);
+    box-shadow: 0px 5px 10px hsl(4deg, 100%, 67%);
+  }
+  .container__main .cont__poppup {
+    width: 370px;
+    background: rgb(255, 255, 255);
+    position: fixed;
+    border-radius: 20px;
+    padding: 50px 40px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.09s all ease-in-out;
+  }
+  .container__main .cont__poppup .poppup__image {
+    width: 50px;
+    height: 50px;
+  }
+  .container__main .cont__poppup .poppup__title {
+    margin-top: 20px;
+    color: hsl(234deg, 29%, 20%);
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 42px;
+  }
+  .container__main .cont__poppup .poppup__text {
+    margin-top: 15px;
+    color: hsl(231deg, 7%, 60%);
+    font-weight: 700;
+    font-size: 12px;
+  }
+  .container__main .cont__poppup .poppup__btn {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px;
+    background: hsl(235deg, 18%, 26%);
+    color: white;
+    transition: 0.2s all;
+    border: none;
+  }
+  .container__main .cont__poppup .poppup__btn:hover {
+    background: hsl(4deg, 100%, 67%);
+    cursor: pointer;
+    box-shadow: 0px 5px 10px hsl(4deg, 100%, 67%);
+  }
+  .container__main .cont__poppup__js {
+    opacity: 1;
+    visibility: visible;
+  }
+  .container__main .cont__poppup__exit {
+    width: 370px;
+    background: rgb(255, 255, 255);
+    position: fixed;
+    border-radius: 20px;
+    padding: 50px 40px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.09s all ease-in-out;
+  }
+  .container__main .cont__poppup__exit .poppup__image {
+    width: 50px;
+    height: 50px;
+  }
+  .container__main .cont__poppup__exit .poppup__title {
+    margin-top: 20px;
+    color: hsl(234deg, 29%, 20%);
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 42px;
+  }
+  .container__main .cont__poppup__exit .poppup__text {
+    margin-top: 15px;
+    color: hsl(231deg, 7%, 60%);
+    font-weight: 700;
+    font-size: 12px;
+  }
+  .container__main .cont__poppup__exit .poppup__btn {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px;
+    background: hsl(235deg, 18%, 26%);
+    color: white;
+    transition: 0.2s all;
+    border: none;
+  }
+  .container__main .cont__poppup__exit .poppup__btn:hover {
+    background: hsl(4deg, 100%, 67%);
+    cursor: pointer;
+    box-shadow: 0px 5px 10px hsl(4deg, 100%, 67%);
+  }
+  .container__main .cont__poppup__exit__js {
+    opacity: 1;
+    visibility: visible;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
