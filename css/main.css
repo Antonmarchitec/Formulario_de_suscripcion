@@ -80,7 +80,7 @@
   font-size: 14px;
 }
 .container__main .container__base .base__section .container__form .cont__label .form__label_error {
-  color: rgb(255, 113, 113);
+  color: #ffa2a2;
   font-size: 14px;
   opacity: 0;
 }
