@@ -227,8 +227,7 @@
     max-width: initial;
     height: initial;
     background: hsl(235deg, 18%, 26%);
-    background: teal;
-    padding: 10px 0px;
+    padding: 0px;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -246,10 +245,11 @@
   }
   .container__main .container__base .base__figure {
     width: 100%;
-    height: 220px;
+    height: 200px;
     transition: none;
     background-image: url(../assets/images/illustration-sign-up-mobile.svg);
-    background-size: 100% 100%;
+    background-size: initial;
+    border-radius: 0px 0px 20px 20px;
   }
   .container__main .container__base .base__figure:hover {
     transform: none;
