@@ -4,8 +4,8 @@
 Vamos por nuestro reto número 25 completado en la página, este es un buen reto para practicar las habilidades de diseño y validación de correo electrónico con un poppup emergente que muestra cuando es exitoso!
 
 ## DISEÑO RESPONSIVE
-Desktop: 1440px
-Movil: 423px
+- Desktop: 1440px
+- Movil: 423px
 
 ## El código fuente lo puedes descargar de nuestro repositorio en GitHub:
 https://github.com/Antonmarchitec/Formulario_de_suscripcion.git
