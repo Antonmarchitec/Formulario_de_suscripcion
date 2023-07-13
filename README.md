@@ -8,10 +8,10 @@ Desktop: 1440px
 Movil: 423px
 
 ## El código fuente lo puedes descargar de nuestro repositorio en GitHub:
-https://github.com/Antonmarchitec/Componente_de_tarjeta_NFT.git
+https://github.com/Antonmarchitec/Formulario_de_suscripcion.git
 
 ## Vista previa del componente:
-https://antonmarchitec.github.io/Componente_de_tarjeta_NFT/
+https://antonmarchitec.github.io/Formulario_de_suscripcion/
 
 ## Página de aprendizaje frontEnd mentor:
 https://www.frontendmentor.io/
